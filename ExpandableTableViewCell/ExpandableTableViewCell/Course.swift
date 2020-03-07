@@ -7,4 +7,5 @@ struct Course: Identifiable {
     var text: String
     var date: String
     var isExpanded: Bool
+    var chapters: [String]
 }
